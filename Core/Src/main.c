@@ -219,6 +219,7 @@ uint8_t AT_Chip_start[] = "AT+CIPSTART=\"TCP\",\"api.thingspeak.com\",80\r\n";
   char first_block_waiting=0;
   char skip_initial = 0;
   uint32_t hold_tick =0;
+  uint8_t aaaa=15;
 
   while (1)
   {
