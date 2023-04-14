@@ -214,8 +214,7 @@ uint8_t AT_Chip_start[] = "AT+CIPSTART=\"TCP\",\"api.thingspeak.com\",80\r\n";
   //HAL_UART_Transmit(&huart2, AT_Chip_start, sizeof(AT_Chip_start), 100);
 
   //PC_transmit_answer();
-  char zartzurt =5; //
-  char zartzaaaurt =53; //
+
   char first_time =1; /// first time char
   char first_block_waiting=0;
   char skip_initial = 0;
